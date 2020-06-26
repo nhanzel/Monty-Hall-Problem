@@ -1,6 +1,6 @@
-#Monty Hall Problem
-###Nathan Hanzel
-####Made with Python
+# Monty Hall Problem
+### Nathan Hanzel
+#### Made with Python
 
 This is a simulation of the famous Monty Hall Problem
 
