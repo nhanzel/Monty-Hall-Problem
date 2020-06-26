@@ -1,6 +1,9 @@
 import random
 import time
 
+#Variables
+num_games = 1000
+pause = .00125
 #Monty Hall Problem Simulation
 def game_show(s):
     #DOOR OBJECT
@@ -39,14 +42,13 @@ def game_show(s):
 
     #USE THIS LINE TO MAKE THE NUMBER OF GAMES GO BY SLOWLY
     #(FOR DRAMATIC EFFECT)
-    time.sleep(.00125)
+    #time.sleep(pause)
 
     if car_door == selection:
         return True
     else:
         return False
 
-num_games = 1000
 wins = 0
 losses = 0
 #CASES WITH NO SWITCHING
